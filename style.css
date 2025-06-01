@@ -1,0 +1,170 @@
+/* Nav */
+.first {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  color: white;
+}
+.first button {
+  margin-left: 250px;
+  background-color: #11B67A;
+  color: black;
+  border: none;
+  text-align: center;
+  font-weight: 650;
+  height: 50px;
+  padding: 12px;
+}
+.navbar {
+  padding: 0;
+  font-weight: 650;
+}
+.navbar-area {
+  display: flex;
+  justify-content: center;
+  background-color: #11B67A;
+  height: 95px;
+}
+.navbar-inner {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.fa-bars,li {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin-right: 10px;
+}
+form input.form-control {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+
+/* Main */
+.main-area {
+  height: 56vh;
+  min-height: 400px;
+  background-image: url(https://www.lloydsbank.com/assets/homepage/homepage-new/lloyds-homepage-investing-hero-desktop-march.jpg);
+  /* background-position: 0 -90px ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.main-area:before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(to right, black, transparent);
+  inset: 0;
+  width: 100%;
+}
+.main-inner {
+  z-index: 1;
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-text-area {
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+} 
+.main-text-area h1 {
+  font: 48px;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+.main-text-area button {
+  font-size: 18px;
+  font-weight: bold;
+  width: 50%;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 12px 24px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+/* Main > Bank-app */
+.bank-app-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0;
+
+}
+.bank-app-inner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bank-app-inner .text-area h2{
+  padding-bottom: 16px;
+  font-weight: 700;
+}
+.bank-app-inner .text-area p{
+  font-weight: 600;
+}
+.bank-app-inner .text-area a{
+  font-weight: 600;
+  color: black;
+}
+
+/* Main> Carousel */
+.our-product-area {
+  width: 80%;
+  display: flex;
+  margin: 60px auto;
+}
+.left-panel {
+  background-color:#2b5c4c;
+  color: white;
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.carousel-control-area button {
+  z-index: 1;
+  background-color: black;
+}
+
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.footer-inner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer-inner h5 {
+  margin-bottom: 1rem;
+  font-weight: 550;
+}
+.footer-inner ul {
+  padding-left: 0;
+  font-size: 1rem;
+}
+.service-area,.help-area,.legal-area,.about-area {
+  width: 40%;
+}
