@@ -2,7 +2,7 @@
 <div align=center>
 <img src="./images/Mainimage.png" alt="Lloyds Bank" width="600px"/>
 
-# [ Lloyds Bank ](https://ninemovie.netlify.app/)
+# [ Lloyds Bank ](https://lloydsbank-web-clone.netlify.app/)
 </div>
 
 A responsive web clone of the Lloyds Bank homepage, recreated using HTML, CSS, Bootstrap, and vanilla JavaScript.  
