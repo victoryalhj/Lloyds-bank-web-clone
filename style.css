@@ -143,6 +143,64 @@ form input.form-control {
   background-color: black;
 }
 
+/* Main > invest */
+.invest-area {
+  background-color: #c7ffc6;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.invest-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.invest-box-left {
+  background-color: white;
+  height: 100%;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.invest-box-left p {
+  margin-top: 10px;
+}
+.invest-box-left button {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 50px;
+  margin-top: 10px;
+}
+.invest-box-right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  
+  }
+.invest-box-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  /* max-width: 500px;
+  min-width: 100%;
+  min-height: 100%; */
+}
 
 /* Footer */
 footer {
